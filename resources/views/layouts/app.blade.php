@@ -67,13 +67,15 @@
                                 <a class="nav-link  dropdown-toggle" href="{{route('learnjapan')}}" data-bs-toggle="dropdown"> Learn Japan</a>
                                 <ul class="dropdown-menu fade-up">
                                     <li>
-                                        <a class="dropdown-item" href="{{route('featuredfacts')}}">Featured Facts &raquo;</a>
+                                        <a class="dropdown-item" href="{{route('featuredfacts')}}">Featured Facts</a>
                                     </li>
                                     <li><a class="dropdown-item" href="{{route('lifestyle')}}">Life Style</a></li>
+                                    <li><a class="dropdown-item" href="{{route('jobandcareer')}}">Job & Career</a></li>
                                 </ul>
                             </li>
+
                             <li class="nav-item dropdown">
-                                <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Study Plan</a>
+                                <a class="nav-link  dropdown-toggle" href="{{route('studyplan')}}" data-bs-toggle="dropdown">Study Plan</a>
                                 <ul class="dropdown-menu fade-up">
                                     <li><a class="dropdown-item" href="#">Why study in Japan</a></li>
                                     <li><a class="dropdown-item" href="#">Where to study</a></li>
@@ -85,7 +87,7 @@
                                     <li><a class="dropdown-item" href="#">Examination</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item active"> <a class="nav-link" href="#">Contact Us </a> </li>
+                            <li class="nav-item active"> <a class="nav-link" href="{{route('contactus')}}">Contact Us </a> </li>
                         </ul>
                     </div>
                 </div> <!-- navbar-collapse.// -->
