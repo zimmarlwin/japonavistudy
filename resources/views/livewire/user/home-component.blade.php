@@ -1,3 +1,6 @@
+<x-slot name="title">
+    Japonavi Study
+</x-slot>
 <div>
     <div id="image-cover">&nbsp;</div>
 <div id="home-image">&nbsp;</div>

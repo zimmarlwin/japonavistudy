@@ -1,3 +1,6 @@
+<x-slot name="title">
+    Japonavi Study | Dashboard
+</x-slot>
 <div>
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->

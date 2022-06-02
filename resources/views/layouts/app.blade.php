@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Japo Navi Study</title>
+    <title>{{$title}}</title>
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
@@ -64,12 +64,12 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Learn Japan</a>
+                                <a class="nav-link  dropdown-toggle" href="{{route('learnjapan')}}" data-bs-toggle="dropdown"> Learn Japan</a>
                                 <ul class="dropdown-menu fade-up">
                                     <li>
-                                        <a class="dropdown-item" href="#">Featured Facts &raquo;</a>
+                                        <a class="dropdown-item" href="{{route('featuredfacts')}}">Featured Facts &raquo;</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Life Style</a></li>
+                                    <li><a class="dropdown-item" href="{{route('lifestyle')}}">Life Style</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
